@@ -2,7 +2,7 @@ const isProduction = process.env.NODE_ENV === "production";
 
 export const UrlList = isProduction
   ? [
-    "https://melushop.sale.et",
+    "https://gumball-streaming.vercel.app",
   ]
   : [
     "http://localhost:5173",
